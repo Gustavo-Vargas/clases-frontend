@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	height: 100%;
+}
+
+body {
+	@apply bg-background dark:bg-darkBackground text-textPrimary dark:text-darkTextPrimary min-h-screen transition;
+	margin: 0;
+}
